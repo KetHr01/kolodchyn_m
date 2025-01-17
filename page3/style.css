@@ -1,0 +1,69 @@
+body {
+    font-family: sans-serif;
+    background-color: rgb(187, 255, 78);
+}
+
+nav a:hover {
+    left: 0;
+
+}
+
+nav a {
+    position: absolute;
+    left: -80px;
+    transition: 0.3s;
+    padding: 15px;
+    width: 100px;
+    text-decoration: none;
+    font-size: 20px;
+    color: yellow;
+    border-radius: 0 5px 5px 0;
+}
+
+.about {
+    top: 20px;
+    background-image: linear-gradient(white,navy);
+}
+
+.blog {
+    top: 130px;
+    background-image: linear-gradient(darkblue,green);
+}
+
+p {
+    font-size: 20px;
+    background-color: rgb(29, 45, 0);
+    color: rgb(37, 129, 129)
+}
+html {
+    background-image: linear-gradient(blue,yellow);
+}
+
+h1 {
+    text-align: center;
+    background-color: rgb(13, 37, 37);
+    border: 3px solid red;
+    border-radius: 10px;
+    color: yellow;
+}
+
+
+td {
+    border: 3px solid blueviolet;
+    color: rgb(69, 79, 0);
+    font-size: 25px;
+}
+
+.pon {
+    width: 30px;
+}
+
+.pon:hover {
+    width: 200px;
+    transition: 2s linear;
+}
+
+.dogs{
+    display:flex;
+    justify-content: center;
+}

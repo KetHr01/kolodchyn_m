@@ -1,0 +1,73 @@
+body {
+    font-family: sans-serif;
+}
+
+nav a {
+    position: absolute;
+    left: -80px;
+    transition: 0.3s;
+    padding: 15px;
+    width: 100px;
+    text-decoration: none;
+    font-size: 20px;
+    color: yellow;
+    border-radius: 0 5px 5px 0;
+}
+
+nav a:hover {
+    left: 0;
+
+}
+
+.about {
+    top: 20px;
+    background-image: linear-gradient(white,navy);
+}
+
+body {
+    background-image: linear-gradient(to bottom right,lightblue,navy,green);
+
+}
+
+h1 {
+    text-align: center;
+    background-image: linear-gradient(to bottom right,blue,yellow,red);
+
+}
+
+p {
+    background-image: linear-gradient(to top left,blue,yellow,red);
+}
+
+img {
+    width: 250px;
+    height: 200px;
+    margin-right: 70px;
+}
+
+.blog {
+    top: 80px;
+    background-image: linear-gradient(darkblue,green);
+}
+
+td {
+    border: 3px solid blueviolet;
+}
+
+.pon {
+    width: 30px;
+    height: 30px;
+}
+
+.pon:hover {
+    width: 150px;
+    height: 200px;
+    transition: 4s linear;
+}
+
+
+
+.cats{
+    display: flex;
+    flex-wrap: wrap;
+}
